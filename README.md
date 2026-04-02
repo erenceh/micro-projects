@@ -1,6 +1,8 @@
 # micro-projects
 
-Small, focused projects I build to sharpen my programming fundamentals without relying on AI. Each one targets a specific concept and takes about 1–2 hours.
+Small, focused projects I build independently to sharpen my programming fundamentals. Each one targets a specific concept and takes about 1–2 hours.
+
+Not portfolio projects — just proof that I'm always building.
 
 ---
 
@@ -8,28 +10,28 @@ Small, focused projects I build to sharpen my programming fundamentals without r
 
 ### Done
 
-| Project              | Language | Concepts                |
-| -------------------- | -------- | ----------------------- |
-| wc-clone-go          | Go       | File I/O, stdin piping  |
-| cat-clone-python     | Python   | stdin/stdout piping     |
-| worker-pool-go       | Go       | Goroutines, channels    |
-| hex-inspector-python | Python   | Bit manipulation, bytes |
-| tcp-echo-server-go   | Go       | TCP sockets             |
-| udp-chat-python      | Python   | UDP sockets             |
+| Project              | Language | Concepts                     |
+| -------------------- | -------- | ---------------------------- |
+| go/wc                | Go       | File I/O, stdin piping       |
+| python/cat           | Python   | stdin/stdout piping          |
+| go/worker-pool       | Go       | Goroutines, channels         |
+| python/hex-inspector | Python   | Bit manipulation, bytes      |
+| go/tcp-echo-server   | Go       | TCP sockets                  |
+| python/udp-chat      | Python   | UDP sockets                  |
+| go/head-tail         | Go       | Buffered I/O, sliding window |
 
-### In progress / Planned
+### Planned
 
-| Project                 | Language   | Concepts                     |
-| ----------------------- | ---------- | ---------------------------- |
-| head-tail-clone-go      | Go         | Buffered I/O                 |
-| struct-tool-java        | Java       | Memory layout, `ByteBuffer`  |
-| log-parser-python       | Python     | Parsing, stdin piping        |
-| rate-limiter-ts         | TypeScript | Sliding window, middleware   |
-| pipeline-processor-ts   | TypeScript | Functional composition       |
-| binary-search-tree-java | Java       | Data structures, generics    |
-| lru-cache-java          | Java       | HashMap + LinkedList         |
-| http-parser-go          | Go         | Protocol parsing             |
-| dns-query-go            | Go         | Raw sockets, binary protocol |
-| port-scanner-go         | Go         | Goroutines, TCP              |
-| csv-parser-python       | Python     | Parsing, stdin piping        |
-| ping-go                 | Go         | Raw sockets, ICMP            |
+| Project                       | Language   | Concepts                       |
+| ----------------------------- | ---------- | ------------------------------ |
+| python/struct-tool            | Python     | Memory layout, `struct` module |
+| python/log-parser             | Python     | Parsing, stdin piping          |
+| typescript/rate-limiter       | TypeScript | Sliding window, middleware     |
+| typescript/binary-search-tree | TypeScript | Data structures, generics      |
+| typescript/lru-cache          | TypeScript | HashMap + linked list          |
+| typescript/pipeline-processor | TypeScript | Functional composition         |
+| go/http-parser                | Go         | Protocol parsing               |
+| go/dns-query                  | Go         | Raw sockets, binary protocol   |
+| go/port-scanner               | Go         | Goroutines, TCP                |
+| python/csv-parser             | Python     | Parsing, stdin piping          |
+| go/ping                       | Go         | Raw sockets, ICMP              |
