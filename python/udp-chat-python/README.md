@@ -35,6 +35,6 @@ python client.py
 
 Type a message in Terminal 2 and hit enter. The server will echo it back with a timestamp. Press `CTRL+C` in either terminal to exit.
 
-## What I learned
+## Reflections
 
 This project was similar to the TCP echo server from my tcp-echo-server-go repo but the key difference was immediately obvious, there's no `listen`, no `accept`, no connection at all. The server just binds to a port and waits for datagrams to arrive, replying directly to whatever address sent them.

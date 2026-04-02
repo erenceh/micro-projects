@@ -42,7 +42,7 @@ go build -o tcp-echo-server-go
 ./tcp-echo-server-go
 ```
 
-## What I learned
+## Reflections
 
 This project strengthened my understanding of how TCP connections actually workk in code. The key insight was ther after `net.Listen` and `net.Accept`, a connection is just a `net.Conn`; a two-way pipe you can read from and write to like any other I/O.
 

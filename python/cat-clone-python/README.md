@@ -40,7 +40,7 @@ python cat.py <file1> <file2>
 echo "hello world" | python cat.py
 ```
 
-## What I learned
+## Reflections
 
 This micro project was a refresher on how programs read file lines and interact with stdin in Python. The key insight was that `sys.stdin` and the result of `open()` are both file objects, the same type, so they can be handled with the same logic.
 

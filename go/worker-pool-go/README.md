@@ -33,9 +33,9 @@ go build -o worker-pool-go
 ./worker-pool-go
 ```
 
-## What I learned
+## Reflections
 
-This was one of the harder micro projects so far. The concept of concurrency and parallelism made sense going in, but the mechanics of goroutines in Go were trickier than expected.
+The concept of concurrency and parallelism made sense going in, but the mechanics of goroutines in Go were trickier than expected.
 
 The most important thing I learned was how goroutines communicate through channels, how sending blocks until a receiver is ready, and how closing a channel signals workers that no more jobs are coming. Deadlocks were also a real lesson: if you send jobs into an unbuffered channel before workers are ready to receive the whole program freezes. Wrapping the send loop in a goroutine was the fix.
 

@@ -33,8 +33,8 @@ python inspector.py <filename>
 echo "hello world" | python inspector.py
 ```
 
-## What I learned
+## Reflections
 
-This was more fun than expected. Playing around with translating data into hex and back gave me a much stronger understanding of how data is actually represented at the byte level, how address space works, why each hex pair maps to exactly one byte, and how the same data looks completely different depending on whether you're reading it as text or raw bytes.
+Playing around with translating data into hex and back gave me a much stronger understanding of how data is actually represented at the byte level, how address space works, why each hex pair maps to exactly one byte, and how the same data looks completely different depending on whether you're reading it as text or raw bytes.
 
 It also reinforced how `xxd` actually works under the hood, which makes debugging binary files feel a lot less mysterious.

@@ -40,7 +40,7 @@ go build -o wc-clone-go
 ./wc-clone-go <filename>
 ```
 
-## What I learned
+## Reflections
 
 This micro project helped me understand how programs read from files and standard input in Go. The key insight was the `os.Stdin` and the result of `os.Open` are both `*os.File` so they can be handled with the same function.
 

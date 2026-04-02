@@ -51,7 +51,7 @@ go build -o head-tail-clone-go
 ./head-tail-clone-go -tail -n 5 text1.txt
 ```
 
-## What I learned
+## Reflections
 
 The interesting part of this project was `tail`, unlike `head`, you can't output anything until you've read the entire file because you don't know where the end is upfront. The solution is a sliding window implemented as a queue: scan every line, enqueue each one, and dequeue the oldest when the window exceeds N. By the time the scanner finishes, the queue holds exactly the last N lines.
 
