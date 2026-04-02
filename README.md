@@ -2,8 +2,6 @@
 
 Small, focused projects I build independently to sharpen my programming fundamentals. Each one targets a specific concept and takes about 1–2 hours.
 
-Not portfolio projects — just proof that I'm always building.
-
 ---
 
 ## Projects
