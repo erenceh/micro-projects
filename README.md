@@ -18,12 +18,12 @@ Small, focused projects I build independently to sharpen my programming fundamen
 | [python/udp-chat](./python/udp-chat)           | Python   | UDP sockets                    |
 | [go/head-tail-clone](./go/head-tail-clone)     | Go       | Buffered I/O, sliding window   |
 | [python/struct-tool](./python/struct-tool)     | Python   | Memory layout, `struct` module |
+| [python/log-parser](./python/log-parser/)      | Python   | Parsing, stdin piping          |
 
 ### Planned
 
 | Project                       | Language   | Concepts                            |
 | ----------------------------- | ---------- | ----------------------------------- |
-| python/log-parser             | Python     | Parsing, stdin piping               |
 | python/csv-parser             | Python     | File I/O, parsing                   |
 | go/http-parser                | Go         | Protocol parsing, byte manipulation |
 | go/dns-query                  | Go         | Raw sockets, binary protocol        |
