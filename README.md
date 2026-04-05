@@ -43,16 +43,17 @@ Small, focused projects I build independently to sharpen my programming fundamen
 ```
 micro-projects/
 ├── go/
-│   ├── wc/
-│   ├── worker-pool/
-│   ├── tcp-echo-server/
 │   ├── head-tail/
+│   ├── tcp-echo-server/
+│   ├── wc-clone/
+│   ├── worker-pool/
 │   └── ...
 ├── python/
-│   ├── cat/
+│   ├── cat-clone/
 │   ├── hex-inspector/
-│   ├── udp-chat/
+│   ├── log-parser/
 │   ├── struct-tool/
+│   ├── udp-chat/
 │   └── ...
 ├── typescript/
 │   └── ...
