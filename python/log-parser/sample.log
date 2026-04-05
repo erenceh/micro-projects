@@ -1,0 +1,15 @@
+2026-04-05 09:57:01 INFO Server started on port 8080
+2026-04-05 09:57:05 DEBUG Received connection from 192.168.1.10
+2026-04-05 09:57:07 ERROR Failed to read config file
+2026-04-05 09:57:09 WARN Memory usage above 80%
+2026-04-05 09:57:11 INFO Request processed successfully
+2026-04-05 09:57:14 ERROR Database connection timeout
+2026-04-05 09:57:18 INFO New user registered: john_doe
+2026-04-05 09:57:22 DEBUG Cache miss for key user_session_42
+2026-04-05 09:57:25 ERROR Null pointer exception in request handler
+2026-04-05 09:57:29 INFO Scheduled job completed in 230ms
+2026-04-05 09:57:33 WARN Disk usage above 90% on /dev/sda1
+2026-04-05 09:57:37 DEBUG Connection pool size: 10
+2026-04-05 09:57:41 ERROR Failed to send email notification
+2026-04-05 09:57:45 INFO Health check passed
+2026-04-05 09:57:49 WARN Rate limit exceeded for IP 10.0.0.5
