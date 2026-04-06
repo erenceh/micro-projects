@@ -19,12 +19,12 @@ Small, focused projects I build independently to sharpen my programming fundamen
 | [go/head-tail-clone](./go/head-tail-clone)     | Go       | Buffered I/O, sliding window   |
 | [python/struct-tool](./python/struct-tool)     | Python   | Memory layout, `struct` module |
 | [python/log-parser](./python/log-parser/)      | Python   | Parsing, stdin piping          |
+| [python/csv-parser](./python/csv-parser/)      | Python   | File I/O, parsing              |
 
 ### Planned
 
 | Project                       | Language   | Concepts                            |
 | ----------------------------- | ---------- | ----------------------------------- |
-| python/csv-parser             | Python     | File I/O, parsing                   |
 | go/http-parser                | Go         | Protocol parsing, byte manipulation |
 | go/dns-query                  | Go         | Raw sockets, binary protocol        |
 | go/port-scanner               | Go         | Goroutines, TCP, concurrency        |
@@ -50,6 +50,7 @@ micro-projects/
 │   └── ...
 ├── python/
 │   ├── cat-clone/
+│   ├── csv-parser/
 │   ├── hex-inspector/
 │   ├── log-parser/
 │   ├── struct-tool/
